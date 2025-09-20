@@ -1,18 +1,1 @@
-{
-  "name": "rebecca-ai-chatbot",
-  "version": "1.0.0",
-  "description": "Rebecca AI Chatbot - Direct OpenAI integration with Rube MCP tools for Gmail, Calendar, Drive access",
-  "main": "index.html",
-  "scripts": {
-    "build": "mkdir -p dist && cp index.html dist/index.html",
-    "dev": "python3 -m http.server 3000",
-    "start": "python3 -m http.server 3000"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/iansmith35/rebecca-ai-chatbot.git"
-  },
-  "keywords": ["ai", "chatbot", "openai", "gmail", "calendar", "productivity"],
-  "author": "iansmith35",
-  "license": "MIT"
-}
+{ "name": "rebecca-ai-chatbot", "version": "1.0.0", "description": "Rebecca AI Chatbot - Direct OpenAI integration with Rube MCP tools for Gmail, Calendar, Drive access", "main": "index.html", "scripts": { "build": "mkdir -p dist && cp index.html dist/index.html", "dev": "python3 -m http.server 3000", "start": "python3 -m http.server 3000" }, "repository": { "type": "git", "url": "https://github.com/iansmith35/rebecca-ai-chatbot.git" }, "keywords": ["ai", "chatbot", "openai", "gmail", "calendar", "productivity"], "author": "iansmith35", "license": "MIT", "dependencies": { "next": "latest", "react": "latest", "react-dom": "latest" } }
