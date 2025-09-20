@@ -1,32 +1,18 @@
 {
-  "name": "ishe-crm-ultra",
+  "name": "rebecca-ai-chatbot",
   "version": "1.0.0",
-  "description": "Ultra-modern CRM for ISHE Group",
-  "main": "index.js",
+  "description": "Rebecca AI Chatbot - Direct OpenAI integration with Rube MCP tools for Gmail, Calendar, Drive access",
+  "main": "index.html",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "mkdir -p dist && cp index.html dist/index.html",
+    "dev": "python3 -m http.server 3000",
+    "start": "python3 -m http.server 3000"
   },
-  "dependencies": {
-    "next": "14.2.5",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "@headlessui/react": "^2.1.2",
-    "@heroicons/react": "^2.1.5",
-    "framer-motion": "^11.3.19",
-    "clsx": "^2.1.1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iansmith35/rebecca-ai-chatbot.git"
   },
-  "devDependencies": {
-    "@types/node": "^20.14.12",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "autoprefixer": "^10.4.20",
-    "eslint": "^8.57.0",
-    "eslint-config-next": "14.2.5",
-    "postcss": "^8.4.41",
-    "tailwindcss": "^3.4.7",
-    "typescript": "^5.5.4"
-  }
+  "keywords": ["ai", "chatbot", "openai", "gmail", "calendar", "productivity"],
+  "author": "iansmith35",
+  "license": "MIT"
 }
