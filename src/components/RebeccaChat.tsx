@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./RebeccaChat.css";
 
 export default function RebeccaChat() {
   const [messages, setMessages] = useState([]);
@@ -6,7 +7,7 @@ export default function RebeccaChat() {
   const [listening, setListening] = useState(false);
 
   async function sendMessage(text) {
-    const res = await fetch(
+    const res = await fetch
       "https://mydxasjicsfetnglbppp.supabase.co/functions/v1/rebecca-simple",
       {
         method: "POST",
